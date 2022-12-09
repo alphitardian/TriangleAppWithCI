@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAD2A2D52942F711003ECA18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD2A2D42942F711003ECA18 /* AppDelegate.swift */; };
+		AAD2A2D72942F711003ECA18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD2A2D62942F711003ECA18 /* SceneDelegate.swift */; };
+		AAD2A2D92942F711003ECA18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD2A2D82942F711003ECA18 /* ViewController.swift */; };
+		AAD2A2DC2942F711003ECA18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAD2A2DA2942F711003ECA18 /* Main.storyboard */; };
+		AAD2A2DE2942F711003ECA18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAD2A2DD2942F711003ECA18 /* Assets.xcassets */; };
+		AAD2A2E12942F711003ECA18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAD2A2DF2942F711003ECA18 /* LaunchScreen.storyboard */; };
+		AAD2A2EC2942F712003ECA18 /* TriangleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD2A2EB2942F712003ECA18 /* TriangleAppTests.swift */; };
+		AAD2A2F62942F712003ECA18 /* TriangleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD2A2F52942F712003ECA18 /* TriangleAppUITests.swift */; };
+		AAD2A2F82942F712003ECA18 /* TriangleAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD2A2F72942F712003ECA18 /* TriangleAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAD2A2E82942F712003ECA18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAD2A2C92942F711003ECA18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAD2A2D02942F711003ECA18;
+			remoteInfo = TriangleApp;
+		};
+		AAD2A2F22942F712003ECA18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAD2A2C92942F711003ECA18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAD2A2D02942F711003ECA18;
+			remoteInfo = TriangleApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AAD2A2D12942F711003ECA18 /* TriangleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TriangleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAD2A2D42942F711003ECA18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AAD2A2D62942F711003ECA18 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AAD2A2D82942F711003ECA18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AAD2A2DB2942F711003ECA18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAD2A2DD2942F711003ECA18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAD2A2E02942F711003ECA18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAD2A2E22942F711003ECA18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAD2A2E72942F712003ECA18 /* TriangleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriangleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAD2A2EB2942F712003ECA18 /* TriangleAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleAppTests.swift; sourceTree = "<group>"; };
+		AAD2A2F12942F712003ECA18 /* TriangleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriangleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAD2A2F52942F712003ECA18 /* TriangleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleAppUITests.swift; sourceTree = "<group>"; };
+		AAD2A2F72942F712003ECA18 /* TriangleAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAD2A2CE2942F711003ECA18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD2A2E42942F712003ECA18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD2A2EE2942F712003ECA18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAD2A2C82942F711003ECA18 = {
+			isa = PBXGroup;
+			children = (
+				AAD2A2D32942F711003ECA18 /* TriangleApp */,
+				AAD2A2EA2942F712003ECA18 /* TriangleAppTests */,
+				AAD2A2F42942F712003ECA18 /* TriangleAppUITests */,
+				AAD2A2D22942F711003ECA18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAD2A2D22942F711003ECA18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAD2A2D12942F711003ECA18 /* TriangleApp.app */,
+				AAD2A2E72942F712003ECA18 /* TriangleAppTests.xctest */,
+				AAD2A2F12942F712003ECA18 /* TriangleAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAD2A2D32942F711003ECA18 /* TriangleApp */ = {
+			isa = PBXGroup;
+			children = (
+				AAD2A2D42942F711003ECA18 /* AppDelegate.swift */,
+				AAD2A2D62942F711003ECA18 /* SceneDelegate.swift */,
+				AAD2A2D82942F711003ECA18 /* ViewController.swift */,
+				AAD2A2DA2942F711003ECA18 /* Main.storyboard */,
+				AAD2A2DD2942F711003ECA18 /* Assets.xcassets */,
+				AAD2A2DF2942F711003ECA18 /* LaunchScreen.storyboard */,
+				AAD2A2E22942F711003ECA18 /* Info.plist */,
+			);
+			path = TriangleApp;
+			sourceTree = "<group>";
+		};
+		AAD2A2EA2942F712003ECA18 /* TriangleAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAD2A2EB2942F712003ECA18 /* TriangleAppTests.swift */,
+			);
+			path = TriangleAppTests;
+			sourceTree = "<group>";
+		};
+		AAD2A2F42942F712003ECA18 /* TriangleAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AAD2A2F52942F712003ECA18 /* TriangleAppUITests.swift */,
+				AAD2A2F72942F712003ECA18 /* TriangleAppUITestsLaunchTests.swift */,
+			);
+			path = TriangleAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAD2A2D02942F711003ECA18 /* TriangleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAD2A2FB2942F712003ECA18 /* Build configuration list for PBXNativeTarget "TriangleApp" */;
+			buildPhases = (
+				AAD2A2CD2942F711003ECA18 /* Sources */,
+				AAD2A2CE2942F711003ECA18 /* Frameworks */,
+				AAD2A2CF2942F711003ECA18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TriangleApp;
+			productName = TriangleApp;
+			productReference = AAD2A2D12942F711003ECA18 /* TriangleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAD2A2E62942F712003ECA18 /* TriangleAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAD2A2FE2942F712003ECA18 /* Build configuration list for PBXNativeTarget "TriangleAppTests" */;
+			buildPhases = (
+				AAD2A2E32942F712003ECA18 /* Sources */,
+				AAD2A2E42942F712003ECA18 /* Frameworks */,
+				AAD2A2E52942F712003ECA18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAD2A2E92942F712003ECA18 /* PBXTargetDependency */,
+			);
+			name = TriangleAppTests;
+			productName = TriangleAppTests;
+			productReference = AAD2A2E72942F712003ECA18 /* TriangleAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAD2A2F02942F712003ECA18 /* TriangleAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAD2A3012942F712003ECA18 /* Build configuration list for PBXNativeTarget "TriangleAppUITests" */;
+			buildPhases = (
+				AAD2A2ED2942F712003ECA18 /* Sources */,
+				AAD2A2EE2942F712003ECA18 /* Frameworks */,
+				AAD2A2EF2942F712003ECA18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAD2A2F32942F712003ECA18 /* PBXTargetDependency */,
+			);
+			name = TriangleAppUITests;
+			productName = TriangleAppUITests;
+			productReference = AAD2A2F12942F712003ECA18 /* TriangleAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAD2A2C92942F711003ECA18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					AAD2A2D02942F711003ECA18 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					AAD2A2E62942F712003ECA18 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = AAD2A2D02942F711003ECA18;
+					};
+					AAD2A2F02942F712003ECA18 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = AAD2A2D02942F711003ECA18;
+					};
+				};
+			};
+			buildConfigurationList = AAD2A2CC2942F711003ECA18 /* Build configuration list for PBXProject "TriangleApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAD2A2C82942F711003ECA18;
+			productRefGroup = AAD2A2D22942F711003ECA18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAD2A2D02942F711003ECA18 /* TriangleApp */,
+				AAD2A2E62942F712003ECA18 /* TriangleAppTests */,
+				AAD2A2F02942F712003ECA18 /* TriangleAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAD2A2CF2942F711003ECA18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD2A2E12942F711003ECA18 /* LaunchScreen.storyboard in Resources */,
+				AAD2A2DE2942F711003ECA18 /* Assets.xcassets in Resources */,
+				AAD2A2DC2942F711003ECA18 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD2A2E52942F712003ECA18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD2A2EF2942F712003ECA18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAD2A2CD2942F711003ECA18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD2A2D92942F711003ECA18 /* ViewController.swift in Sources */,
+				AAD2A2D52942F711003ECA18 /* AppDelegate.swift in Sources */,
+				AAD2A2D72942F711003ECA18 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD2A2E32942F712003ECA18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD2A2EC2942F712003ECA18 /* TriangleAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD2A2ED2942F712003ECA18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD2A2F82942F712003ECA18 /* TriangleAppUITestsLaunchTests.swift in Sources */,
+				AAD2A2F62942F712003ECA18 /* TriangleAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAD2A2E92942F712003ECA18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAD2A2D02942F711003ECA18 /* TriangleApp */;
+			targetProxy = AAD2A2E82942F712003ECA18 /* PBXContainerItemProxy */;
+		};
+		AAD2A2F32942F712003ECA18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAD2A2D02942F711003ECA18 /* TriangleApp */;
+			targetProxy = AAD2A2F22942F712003ECA18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AAD2A2DA2942F711003ECA18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAD2A2DB2942F711003ECA18 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAD2A2DF2942F711003ECA18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAD2A2E02942F711003ECA18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAD2A2F92942F712003ECA18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAD2A2FA2942F712003ECA18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAD2A2FC2942F712003ECA18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7A8Q75M3WV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TriangleApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alphitardian.TriangleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAD2A2FD2942F712003ECA18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7A8Q75M3WV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TriangleApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alphitardian.TriangleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AAD2A2FF2942F712003ECA18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7A8Q75M3WV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alphitardian.TriangleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TriangleApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TriangleApp";
+			};
+			name = Debug;
+		};
+		AAD2A3002942F712003ECA18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7A8Q75M3WV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alphitardian.TriangleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TriangleApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TriangleApp";
+			};
+			name = Release;
+		};
+		AAD2A3022942F712003ECA18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7A8Q75M3WV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alphitardian.TriangleAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TriangleApp;
+			};
+			name = Debug;
+		};
+		AAD2A3032942F712003ECA18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7A8Q75M3WV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alphitardian.TriangleAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TriangleApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAD2A2CC2942F711003ECA18 /* Build configuration list for PBXProject "TriangleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD2A2F92942F712003ECA18 /* Debug */,
+				AAD2A2FA2942F712003ECA18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAD2A2FB2942F712003ECA18 /* Build configuration list for PBXNativeTarget "TriangleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD2A2FC2942F712003ECA18 /* Debug */,
+				AAD2A2FD2942F712003ECA18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAD2A2FE2942F712003ECA18 /* Build configuration list for PBXNativeTarget "TriangleAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD2A2FF2942F712003ECA18 /* Debug */,
+				AAD2A3002942F712003ECA18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAD2A3012942F712003ECA18 /* Build configuration list for PBXNativeTarget "TriangleAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD2A3022942F712003ECA18 /* Debug */,
+				AAD2A3032942F712003ECA18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAD2A2C92942F711003ECA18 /* Project object */;
+}
